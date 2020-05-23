@@ -7,13 +7,14 @@ def add_layer(model):
 # load the dataset
 dataset = loadtxt(r'/usr/pima-indians-diabetes.csv', delimiter=',')
 # split into input (X) and output (y) variables
-print("jiiiiiiiii sir ji")
+print("jiiiiiiiii sir jii")
 X = dataset[:,0:8]
 y = dataset[:,8]
 # define the keras model
 model = Sequential()
 model.add(Dense(12, input_dim=8, activation='relu'))
 add_layer(model)
+mode.summary()
 model.add(Dense(1, activation='sigmoid'))
 # compile the keras model
 model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy'])
