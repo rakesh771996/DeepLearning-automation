@@ -7,7 +7,6 @@ def add_layer(model,neuron):
 # load the dataset
 dataset = loadtxt(r'/usr/pima-indians-diabetes.csv', delimiter=',')
 # split into input (X) and output (y) variables
-print("jiiiiiiiii sir jiii radha swami ji")
 neuron=8
 epoch=20
 X = dataset[:,0:8]
