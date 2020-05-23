@@ -6,7 +6,7 @@ def add_layer(model,neuron):
 	model.add(Dense(neuron, activation='relu'))
 # load the dataset
 dataset = loadtxt(r'/usr/pima-indians-diabetes.csv', delimiter=',')
-# split into input (X) and output (y) variables
+# split into input (X) and output (y) variable
 neuron=8
 epoch=20
 X = dataset[:,0:8]
